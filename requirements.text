@@ -1,6 +1,6 @@
-- Python3
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- Streamlit
+python3
+numpy
+pandas
+matplotlib
+seaborn
+streamlit
