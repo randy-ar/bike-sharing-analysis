@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import streamlit as st
+import os
 
 # Define a consistent color palette
 colors = ['#4285F4', '#34A853', '#FBBC05', '#EA4335']
@@ -19,8 +20,9 @@ plt.rcParams['axes.labelsize'] = 30
 plt.rcParams['axes.titlesize'] = 30
 
 # Read data
-data_day = pd.read_csv("data_day.csv")
-data_hour = pd.read_csv("data_hour.csv")
+current_working_directory = os.getcwd()
+data_day = pd.read_csv(current_working_directory+"/data_day.csv")
+data_hour = pd.read_csv(current_working_directory+"/data_hour.csv")
 
 
 # Streamlit layout
