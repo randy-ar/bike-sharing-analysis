@@ -20,8 +20,8 @@ plt.rcParams['axes.labelsize'] = 30
 plt.rcParams['axes.titlesize'] = 30
 
 # Read data
-data_day = pd.read_csv(str(Path(__file__).resolve().parent)+"\\data_day.csv")
-data_hour = pd.read_csv(str(Path(__file__).resolve().parent)+"\\data_hour.csv")
+data_day = pd.read_csv(str(Path(__file__).resolve().parent)+"/data_day.csv")
+data_hour = pd.read_csv(str(Path(__file__).resolve().parent)+"/data_hour.csv")
 
 
 # Streamlit layout
